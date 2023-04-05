@@ -53,7 +53,7 @@ nav ul li a {
     text-decoration: none;
     font-size: 18px;
     color:#828282; 
-    padding-left:30px;
+    padding-left:10px;
 }
 
 header h2 {
@@ -190,7 +190,7 @@ header .extra-hero {
     width: 1200px;
     margin: 0 auto;
     overflow: auto;
-     height: 800px;
+    height: 800px;
     background: url('../img/full-background.png');
     background-size: cover;
     background-position: center;
@@ -211,7 +211,7 @@ header .extra-hero {
 
 #projects h2 {
     font-size: 70px;
-    padding: 20px 0 20px 90px;
+    padding: 20px 0 20px 50px;
     text-align: center;
 }
 
@@ -233,4 +233,102 @@ header .extra-hero {
     padding: 30px 0;
     margin-right: 65px;
     margin-left: 65px;
+}
+
+
+/****** Hola Beatriz Page Styles ******/
+
+/****** Hola Beatriz Header Styles ******/
+.header-section {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+    height: 1000px;
+    background: url('../me/img/tomoko-uji-kx-unsplash.png');
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+.header-section h1 {
+    padding: 65px 0 65px 25px;
+    font-family: 'Lora', serif;
+    font-size: 30px;
+    color: palevioletred;
+}
+
+.header-section h2 {
+    width: 1500px;
+    clear: both;
+    font-family: 'Lora', serif;
+    font-size: 90px;
+    line-height: 90px;
+    color: plum; 
+    padding: 0px 0 20px 25px;
+}
+
+.header-section nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: plum; 
+    padding-left:10px;
+}
+
+/****** Hola Beatriz Page Styles ******/
+#hola {
+    background-color: #f0dfe8;
+    text-align: center;
+    padding: 40px 50px 30px 70px;
+}
+
+
+#hola h2 {
+    font-size: 50px;
+    padding: 20px 0 15px 0;
+    border: #2b2b2b solid;
+    border-width: 2px 0;
+    width: 1200px;
+}
+
+#hola p {
+    font-family:'Lora', serif;
+    font-size:20px;
+    line-height:40px;
+    padding: 10px 0;    
+}
+
+
+#contact-me h3 {
+    font-size: 25px;
+    line-height:32px;
+    width: 1200px;
+    margin: 0 auto;
+    border: #2b2b2b solid;
+    border-width: 2px 0;
+    padding: 25px 0;
+}
+  
+
+#contact-me {
+    font-family:'Lora', serif;
+    font-size:20px;
+    line-height:40px;
+    padding: 10px 0;
+    margin-right: 65px;
+    margin-left: 65px;
+    text-align: center; 
+}
+
+#contact-me p {
+    font-size: 15px;
+}
+
+.only-footer {
+    text-align: center;
+    font-size: 20px;
+    padding-left: 50px;
+    padding-top: 60px;
+
 }
